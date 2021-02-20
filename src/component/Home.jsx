@@ -4,7 +4,6 @@ import { makeStyles } from '@material-ui/core/styles';
 import List from './List'
 import Title from './Title';
 import News from './News';
-
 import TextField from '@material-ui/core/TextField';
 import InputLabel from '@material-ui/core/InputLabel';
 import MenuItem from '@material-ui/core/MenuItem';
@@ -28,9 +27,15 @@ export default function Home(props) {
             width: 130,
             marginLeft: '10px',
             marginRight: '10px',
+            ['@media (max-width:600px)']: {
+                width: 230,
+              }
         },
         button:{
             marginTop: '10px'
+        },
+        select: {
+
         }
     })
     const classes = useStyles();
@@ -88,9 +93,9 @@ export default function Home(props) {
             <News/>
             <Title/>
    {/* פה הישתמשתי בלולאת מאפ על מנת ליצור תפריט סלקט כדי שאוכל לעדכן אותו בהתאם לאובייקט שמתקבל  */}
-        <p className ='p'>
-        <h3>Amount</h3><br/>
-            <TextField  className={classes.InputLabel}
+        <p className ='p media'>
+        <h3 className='Amount'>Amount</h3><br/>
+            <TextField className='input' className={classes.InputLabel}
          onChange={inputFunc}
           id="outlined-number"
           label="Number"
@@ -101,7 +106,7 @@ export default function Home(props) {
           variant="outlined"
         /></p>
         <p  className ='p'>
-            <h3>From </h3><br/>
+            <h3 className='to'>From </h3><br/>
             <FormControl variant="outlined">
         <InputLabel id="demo-simple-select-outlined-label">Currency</InputLabel>
         <Select
@@ -125,8 +130,8 @@ export default function Home(props) {
       </p>
           <img className ='arrow' src ={arrow}/>
       <p  className ='p'>
-            <h3>To</h3><br/>
-        <FormControl variant="outlined" className={classes.InputLabel}>
+            <h3 className='to'>To</h3><br/>
+        <FormControl variant="outlined" className={classes.select}>
         <InputLabel id="demo-simple-select-outlined-label">Currency</InputLabel>
         <Select
          style = {{minWidth: '130px'}}

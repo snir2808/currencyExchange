@@ -23,6 +23,7 @@ export default function Welcome() {
         animate='in'
         exit='out'
         variants={pageTransition}
+        style= {{backgroundColor: 'white'}}
         >
             <img className='logo' src={Logo}/>
         </motion.div>

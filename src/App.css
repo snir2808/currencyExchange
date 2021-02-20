@@ -1,6 +1,9 @@
 body{
   background-image: url('./media/pexels-cottonbro-3943743.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
 }
 .App {
   text-align: center;
@@ -35,15 +38,14 @@ input::-webkit-inner-spin-button {
   margin-right: 10px;
 }
 .logo{
-  margin-top: -256px;
+  max-width:100%;
+  position: inherit;
 }
 h3{
   font-family: 'Acme', sans-serif;
   display: inline;
-  float: left;
   margin-bottom: 2px;
   margin-left: 15px;
-  /* font-size:5vw; */
 }
 .responsive {
   max-width:100%;
@@ -58,8 +60,8 @@ h3{
 .arrow{
   max-width: 40px;
   margin-bottom: -28px;
-  margin-left: 5px;
-  margin-right: -5px;
+  margin-left: -5px;
+  margin-right: 5px;
 }
 @font-face {
   font-family: "number";
@@ -97,3 +99,17 @@ h1{
   margin: 0;
   margin-top: 10px;
 }
+.Amount{
+  margin-right: 55px;
+}
+.to{
+  margin-right: 88px;
+}
+@media only screen and (max-width: 600px) {
+  .media{
+    display: block;
+  }
+  .Amount{
+    margin-right: 155px;
+  }
+  }
