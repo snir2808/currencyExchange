@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/currencyExchange/static/css/main.c795d199.chunk.css",
-    "main.js": "/currencyExchange/static/js/main.0ac41a29.chunk.js",
-    "main.js.map": "/currencyExchange/static/js/main.0ac41a29.chunk.js.map",
+    "main.css": "/currencyExchange/static/css/main.c24f206a.chunk.css",
+    "main.js": "/currencyExchange/static/js/main.fdbf0af5.chunk.js",
+    "main.js.map": "/currencyExchange/static/js/main.fdbf0af5.chunk.js.map",
     "runtime-main.js": "/currencyExchange/static/js/runtime-main.e8f6e9b6.js",
     "runtime-main.js.map": "/currencyExchange/static/js/runtime-main.e8f6e9b6.js.map",
     "static/css/2.0c3d5eb4.chunk.css": "/currencyExchange/static/css/2.0c3d5eb4.chunk.css",
-    "static/js/2.3b9e90c5.chunk.js": "/currencyExchange/static/js/2.3b9e90c5.chunk.js",
-    "static/js/2.3b9e90c5.chunk.js.map": "/currencyExchange/static/js/2.3b9e90c5.chunk.js.map",
+    "static/js/2.2e60d18f.chunk.js": "/currencyExchange/static/js/2.2e60d18f.chunk.js",
+    "static/js/2.2e60d18f.chunk.js.map": "/currencyExchange/static/js/2.2e60d18f.chunk.js.map",
     "static/js/3.45d4e7b6.chunk.js": "/currencyExchange/static/js/3.45d4e7b6.chunk.js",
     "static/js/3.45d4e7b6.chunk.js.map": "/currencyExchange/static/js/3.45d4e7b6.chunk.js.map",
     "index.html": "/currencyExchange/index.html",
     "static/css/2.0c3d5eb4.chunk.css.map": "/currencyExchange/static/css/2.0c3d5eb4.chunk.css.map",
-    "static/css/main.c795d199.chunk.css.map": "/currencyExchange/static/css/main.c795d199.chunk.css.map",
-    "static/js/2.3b9e90c5.chunk.js.LICENSE.txt": "/currencyExchange/static/js/2.3b9e90c5.chunk.js.LICENSE.txt",
+    "static/css/main.c24f206a.chunk.css.map": "/currencyExchange/static/css/main.c24f206a.chunk.css.map",
+    "static/js/2.2e60d18f.chunk.js.LICENSE.txt": "/currencyExchange/static/js/2.2e60d18f.chunk.js.LICENSE.txt",
     "static/media/AUD.png": "/currencyExchange/static/media/AUD.10f47fac.png",
     "static/media/BRL.png": "/currencyExchange/static/media/BRL.c466ce6a.png",
     "static/media/CAD.png": "/currencyExchange/static/media/CAD.667a7174.png",
@@ -46,8 +46,8 @@
   "entrypoints": [
     "static/js/runtime-main.e8f6e9b6.js",
     "static/css/2.0c3d5eb4.chunk.css",
-    "static/js/2.3b9e90c5.chunk.js",
-    "static/css/main.c795d199.chunk.css",
-    "static/js/main.0ac41a29.chunk.js"
+    "static/js/2.2e60d18f.chunk.js",
+    "static/css/main.c24f206a.chunk.css",
+    "static/js/main.fdbf0af5.chunk.js"
   ]
 }
