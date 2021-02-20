@@ -39,7 +39,8 @@ input::-webkit-inner-spin-button {
 }
 .logo{
   max-width:100%;
-  position: inherit;
+  position: relative;
+  top: -170px;
 }
 h3{
   font-family: 'Acme', sans-serif;
@@ -111,5 +112,9 @@ h1{
   }
   .Amount{
     margin-right: 155px;
+  }
+  .logo{
+    top: -60px;
+
   }
   }
