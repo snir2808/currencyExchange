@@ -115,7 +115,6 @@ export default function Home(props) {
           </MenuItem>
             {coin.map(item =>{
                 let imgSrc = require(`./../media/${item.type[1]}.png`)
-                console.log(imgSrc.default)
                     return(
                     <MenuItem value={item.type}> <img className='flags' src ={imgSrc.default}/> {item.type[1]}</MenuItem>
                     )

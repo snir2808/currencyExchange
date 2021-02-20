@@ -16,7 +16,7 @@ import React, {useState,useEffect} from 'react'
       useEffect(() => {
           var promise = new Promise(function(resolve, reject) {
               var request = new XMLHttpRequest();
-              request.open('GET', 'https://newsapi.org/v2/top-headlines?country=us&apiKey=e7d9c538f9e34559a3d950c8adbbe555')
+              request.open('GET', 'https://gnews.io/api/v4/search?q=example&token=af8d26c1bcdb60bc108e12126ff7c86d')
               request.onload = function() {
                   if (request.status == 200) {
                       resolve(request.response); // we got data here, so resolve the Promise
@@ -30,6 +30,7 @@ import React, {useState,useEffect} from 'react'
                 request.send(); //send the request
         });
         promise.then(function(data) {
+            console.log(data)
             setPost(JSON.parse(data).articles)  
         }, function(error) {
             console.log('error.message');
@@ -108,7 +109,7 @@ import React, {useState,useEffect} from 'react'
      <CardActionArea >
         <CardMedia 
             className={classes.media}
-            image={`${item.urlToImage}`}
+            image={`${item.image}`}
             title="Contemplative Reptile"
         />
         <CardContent className={classes.card}>
